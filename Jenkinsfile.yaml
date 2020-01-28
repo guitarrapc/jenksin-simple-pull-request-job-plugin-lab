@@ -17,3 +17,6 @@ stages:
       - sh: 'echo Tests'
       - sh: 'echo Tests2'
 
+
+archiveArtifacts:
+  - Jenkinsfile.yaml
